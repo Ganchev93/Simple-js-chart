@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: rgb(232, 235, 238);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(budget.jpg);
+  background-size: cover;
+}
+
+.container {
+  margin: 0px 40px 20px 40px;
+  background-color: rgba(252, 252, 252, 0.7);
+  border-radius: 10%;
+  padding-bottom: 20px;
+}
+
+.header {
+  background-color: rgba(214, 214, 214, 0.534);
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: center;
+  height: 70px;
+}
+.header h1 {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: rgb(233, 146, 146);
+  text-shadow: 1px 1px rgb(70, 70, 70);
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.chart {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 20px;
+  border-radius: 5%;
+}
+
+.chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-container {
+  width: 70%;
+  height: 100%;
+  text-align: center;
+}
+
+.container-title {
+  color: rgb(4, 44, 11);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+}

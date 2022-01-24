@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"
+      integrity="sha512-TW5s0IT/IppJtu76UbysrBH9Hy/5X41OTAbQuffZFU6lQ1rdcLHzpU5BzVvr/YFykoiMYZVWlr/PX1mDcfM9Qg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="main-title">
+        <h1>Бюджети на домакинства през периода 2011-2020 година</h1>
+      </div>
+    </header>
+    <div class="container">
+      <div class="chart-wrapper">
+        <div class="chart-container">
+          <h2 class="container-title">Приходи и разходи на домакинства</h2>
+          <div class="chart">
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <h2 class="container-title">Приходи и разходи на лице</h2>
+          <div class="chart">
+            <canvas id="myChart2"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
